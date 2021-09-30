@@ -43,7 +43,7 @@ Tenemos que modificar con nano el etc/hosts para añadirlo:
 
 Agregamos lo siguiente:
 
->0.0.0.0 curso-drupal.local
+> 127.0.0.1 curso-drupal.local
 
 Después, entramos a http://curso-drupal.local, Esto debería redirigirnos a una pantalla de instalación de Drupal 9.
 

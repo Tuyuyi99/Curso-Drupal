@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '0c18bdc8bde1f7a736b9795bd6f3fc7be36624db',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -246,6 +246,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/bootstrap_barrio' => array(
+            'pretty_version' => '5.5.2',
+            'version' => '5.5.2.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap_barrio',
+            'aliases' => array(),
+            'reference' => '5.5.2',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -640,6 +649,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/layout_builder_restrictions' => array(
+            'pretty_version' => '2.9.0',
+            'version' => '2.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/layout_builder_restrictions',
+            'aliases' => array(),
+            'reference' => '8.x-2.9',
+            'dev_requirement' => false,
+        ),
         'drupal/layout_discovery' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -761,12 +779,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '0c18bdc8bde1f7a736b9795bd6f3fc7be36624db',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1526,6 +1544,15 @@
             'reference' => '81cdac5536925c1c4b7b50aabc9ff6330b9eb5fc',
             'dev_requirement' => false,
         ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => 'v5.1.1',
+            'version' => '5.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'reference' => '0d81d3cbc14dfcdca8a868e3f25189a4f1ab273c',
+            'dev_requirement' => false,
+        ),
         'twig/twig' => array(
             'pretty_version' => 'v2.14.6',
             'version' => '2.14.6.0',
@@ -1534,6 +1561,12 @@
             'aliases' => array(),
             'reference' => '27e5cf2b05e3744accf39d4c68a3235d9966d260',
             'dev_requirement' => false,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v5.1.1',
+            ),
         ),
         'typo3/phar-stream-wrapper' => array(
             'pretty_version' => 'v3.1.6',
