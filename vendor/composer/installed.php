@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0c18bdc8bde1f7a736b9795bd6f3fc7be36624db',
+        'reference' => '640a8226f5e423a08eadd6959e26edf9db6f9317',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -784,7 +784,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0c18bdc8bde1f7a736b9795bd6f3fc7be36624db',
+            'reference' => '640a8226f5e423a08eadd6959e26edf9db6f9317',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -876,6 +876,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/title_field_for_manage_display' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/title_field_for_manage_display',
+            'aliases' => array(),
+            'reference' => '8.x-2.0',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,

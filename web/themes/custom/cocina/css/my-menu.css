@@ -1,0 +1,7 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */ 
+ .menu--secciones-blog-cocina .nav > .nav-item > a, .menu--account .nav > .nav-link{
+     color: white;
+ }

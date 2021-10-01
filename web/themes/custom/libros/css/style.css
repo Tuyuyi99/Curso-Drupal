@@ -1,0 +1,90 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+ .navbar-brand img{
+    max-width: 80px;
+    margin-left: 10x;
+}
+
+.collapse a{
+    color: rgb(53, 50, 46);
+}
+
+.clearfix a{
+   color: rgb(53, 50, 46);
+}
+
+.header__top .region-secondary-menu{
+   width: 100%;
+}
+
+
+.header__top .region-secondary-menu .menu--account > .nav{
+   justify-content: flex-end;
+}
+
+img{
+   max-width: 100%;
+}
+
+h2.subtitle-post {
+   color: gray;
+   font-size: 24px;
+}
+
+.block-inline-blockcabecera{
+    position: relative;
+    margin-bottom: 25px;
+ }
+ 
+ .block-inline-blockcabecera:after {
+     content:'';
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: rgba(0, 0, 0, 0.3);
+  }
+ 
+ .node .field--type-image {
+     float:none;
+     margin: 0;
+ }
+ 
+ .node .field--type-image img {
+     margin: 0;
+ }
+ 
+ .block-inline-blockcabecera .field--name-field-body{
+     position: absolute;
+     top: 50%;
+     left: 0;
+     right: 0;
+     transform: translateY(-50%);
+     color: white;
+     font-weight: bold;
+     font-size: 4rem;
+     text-align: center;
+     z-index: 1;
+ }
+ 
+ .views-row{
+     background-color: rgb(214, 206, 206);
+     border-radius: 6px;
+     margin: 10px 30px 10px 10px;
+ 
+ }
+ 
+ .field--name-field-display-title{
+     color: rgb(67, 115, 143);
+ }
+ 
+ .field--name-field-subtitulolibro{
+     font-size: 15px;
+ }
+ .field--name-field-f{
+     font-size: 16px;
+ }

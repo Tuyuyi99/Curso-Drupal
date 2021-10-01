@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+h2.subtitle-post{
+    color: gray;
+    font-size: 24px;
+}

@@ -1,0 +1,59 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ .layout__region--second .field--name-field-genero{
+    height: 5px;
+    border-bottom: 20px gray;
+}
+
+.layout__region--second .field--name-field-enlace a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px 6px 6px 6px;
+    margin: 5px 5px 5px 5px;
+    border: solid 1px black;
+    transition: all 0.4s ease-in-out;
+    background-color: #f0f0f0; 
+}
+.layout__region--second .field--name-field-enlace a:hover{
+    background-color: #c3c3c3;
+}
+
+.layout__region--second time{
+    color: gray;
+}
+
+.layout__region--second .field--name-field-a{
+    color: gray;
+}
+
+.layout__region--second .field--name-field-genero a{
+    color: gray;
+    text-decoration: none;
+}
+
+.node--type-libro.node--view-mode-full h1:before{
+    content:'';
+    height:1px;
+    width:200px;
+    margin: 20px 0;
+    background-color: gray;
+    display: block;
+}
+
+
+.layout__region--content .field--name-field-subtitulolibro{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 22px
+}
+
+.layout__region--content p:after{
+    content:'';
+    height:1px;
+    width:200px;
+    margin: 20px 0;
+    background-color: gray;
+    display: block;
+}

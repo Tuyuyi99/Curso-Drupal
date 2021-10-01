@@ -1,0 +1,35 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+ .navbar-brand img{
+     max-width: 80px;
+     margin-left: 10x;
+ }
+
+ .collapse a{
+     color: rgb(53, 50, 46);
+ }
+
+ .clearfix a{
+    color: rgb(53, 50, 46);
+ }
+
+ .header__top .region-secondary-menu{
+    width: 100%;
+ }
+
+
+.header__top .region-secondary-menu .menu--account > .nav{
+    justify-content: flex-end;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2.subtitle-post {
+    color: gray;
+    font-size: 24px;
+}
