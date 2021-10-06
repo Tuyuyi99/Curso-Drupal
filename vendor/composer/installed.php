@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '640a8226f5e423a08eadd6959e26edf9db6f9317',
+        'reference' => '0bbfc01044dcb67ee059485dbf9ed9380b9bc44c',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -222,6 +222,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/better_exposed_filters' => array(
+            'pretty_version' => '5.0.0-beta3',
+            'version' => '5.0.0.0-beta3',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/better_exposed_filters',
+            'aliases' => array(),
+            'reference' => '8.x-5.0-beta3',
+            'dev_requirement' => false,
         ),
         'drupal/big_pipe' => array(
             'dev_requirement' => false,
@@ -514,6 +523,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/csv_serialization' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/csv_serialization',
+            'aliases' => array(),
+            'reference' => '8.x-2.0',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -531,6 +549,24 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/domain' => array(
+            'pretty_version' => '1.0.0-beta6',
+            'version' => '1.0.0.0-beta6',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/domain',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-beta6',
+            'dev_requirement' => false,
+        ),
+        'drupal/drush_language' => array(
+            'pretty_version' => '1.0.0-rc4',
+            'version' => '1.0.0.0-RC4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/drush_language',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-rc4',
+            'dev_requirement' => false,
         ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
@@ -631,6 +667,42 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/jquery_ui' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_datepicker' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_datepicker',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_slider' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_slider',
+            'aliases' => array(),
+            'reference' => '8.x-1.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_touch_punch' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_touch_punch',
+            'aliases' => array(),
+            'reference' => '1.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/jsonapi' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -648,6 +720,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/layout_builder_at' => array(
+            'pretty_version' => '2.12.0',
+            'version' => '2.12.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/layout_builder_at',
+            'aliases' => array(),
+            'reference' => '8.x-2.12',
+            'dev_requirement' => false,
         ),
         'drupal/layout_builder_restrictions' => array(
             'pretty_version' => '2.9.0',
@@ -784,7 +865,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '640a8226f5e423a08eadd6959e26edf9db6f9317',
+            'reference' => '0bbfc01044dcb67ee059485dbf9ed9380b9bc44c',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -921,6 +1002,24 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/views_data_export' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/views_data_export',
+            'aliases' => array(),
+            'reference' => '8.x-1.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/views_infinite_scroll' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/views_infinite_scroll',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
         ),
         'drupal/views_ui' => array(
             'dev_requirement' => false,
@@ -1064,6 +1163,15 @@
             'install_path' => __DIR__ . '/../league/container',
             'aliases' => array(),
             'reference' => '8438dc47a0674e3378bcce893a0a04d79a2c22b3',
+            'dev_requirement' => false,
+        ),
+        'league/csv' => array(
+            'pretty_version' => '9.7.1',
+            'version' => '9.7.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/csv',
+            'aliases' => array(),
+            'reference' => '0ec57e8264ec92565974ead0d1724cf1026e10c1',
             'dev_requirement' => false,
         ),
         'masterminds/html5' => array(

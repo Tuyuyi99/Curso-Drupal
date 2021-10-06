@@ -817,3 +817,7 @@ $settings['hash_salt'] = 's/phhFSE4FSWodn+';
 $settings['trusted_host_patterns'] = array(
     '\.localhost$', '\.local$', '\.loc$'
 );
+
+ini_set("memory_limit", -1);
+
+$settings['custom_translations_directory'] = '../config/translations';
