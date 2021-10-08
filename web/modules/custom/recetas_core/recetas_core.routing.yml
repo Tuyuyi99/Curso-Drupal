@@ -1,0 +1,20 @@
+recetas_core.info:
+  path: '/recetas-core/info/{node}'
+  defaults:
+    _controller: '\Drupal\recetas_core\Controller\InfoController::info'
+    _title_callback: '\Drupal\recetas_core\Controller\InfoController::title'
+  requirements:
+    _permission: 'administer rest resources'
+    _entity_access: 'node.view'
+  options:
+    parameters:
+      node:
+        type: 'entity:node'
+
+
+recetas_core.settings:
+  path: '/recetas-core/settings/{node}'
+  defaults:
+    _form: '\Drupal\restui\Form\RestUIForm'
+  requirements:
+    _permission: 'administer rest resources'

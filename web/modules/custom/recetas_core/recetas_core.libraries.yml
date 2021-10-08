@@ -1,0 +1,19 @@
+example:
+  version: VERSION
+  js:
+    js/recetas_command.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+aos:
+  version: VERSION
+  js:
+    /libraries/aos/dist/aos.js: {}
+  css:
+    theme:
+      /libraries/aos/dist/aos.css: {}
+  dependencies:
+    - core/jquery

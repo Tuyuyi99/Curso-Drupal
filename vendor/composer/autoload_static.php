@@ -88,6 +88,8 @@ class ComposerStaticInit888521be4645929d652fe76c6f5f4d42
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
+            'Shaper\\Tests\\' => 13,
+            'Shaper\\' => 7,
             'SelfUpdate\\' => 11,
         ),
         'R' => 
@@ -103,6 +105,10 @@ class ComposerStaticInit888521be4645929d652fe76c6f5f4d42
             'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
         ),
+        'O' => 
+        array (
+            'OomphInc\\ComposerInstallersExtender\\' => 36,
+        ),
         'M' => 
         array (
             'Masterminds\\' => 12,
@@ -117,9 +123,9 @@ class ComposerStaticInit888521be4645929d652fe76c6f5f4d42
             'Laminas\\Escaper\\' => 16,
             'Laminas\\Diactoros\\' => 18,
         ),
-        'I' => 
+        'J' => 
         array (
-            'Interop\\Container\\' => 18,
+            'JsonSchema\\' => 11,
         ),
         'G' => 
         array (
@@ -307,6 +313,14 @@ class ComposerStaticInit888521be4645929d652fe76c6f5f4d42
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
         ),
+        'Shaper\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/e0ipso/shaper/tests/src',
+        ),
+        'Shaper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/e0ipso/shaper/src',
+        ),
         'SelfUpdate\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
@@ -340,6 +354,10 @@ class ComposerStaticInit888521be4645929d652fe76c6f5f4d42
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'OomphInc\\ComposerInstallersExtender\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/oomphinc/composer-installers-extender/src',
+        ),
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
@@ -372,9 +390,9 @@ class ComposerStaticInit888521be4645929d652fe76c6f5f4d42
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
         ),
-        'Interop\\Container\\' => 
+        'JsonSchema\\' => 
         array (
-            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
